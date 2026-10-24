@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "title": "Demo competition (placeholder)",
+  "kind": "competition",
+  "date": "2024",
+  "projects": [
+    "demo-project-5",
+    "demo-project-6"
+  ],
+  "tags": [],
+  "links": [],
+  "attachments": [],
+  "featured": false,
+  "body": []
+}

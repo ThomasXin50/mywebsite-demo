@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "headline": "Placeholder headline for a demo résumé.",
+  "tracks": [
+    {
+      "id": "track-a",
+      "label": "Track A",
+      "pdf": {
+        "src": "./track-a.pdf",
+        "label": "Résumé (Track A)"
+      }
+    },
+    {
+      "id": "track-b",
+      "label": "Track B",
+      "pdf": {
+        "src": "./track-b.pdf",
+        "label": "Résumé (Track B)"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "education",
+      "title": "Education",
+      "items": [
+        {
+          "type": "entry",
+          "title": "Example University",
+          "role": "Placeholder degree",
+          "aside": "Second-year",
+          "detail": "GPA: 0.0/4.0 (placeholder)",
+          "lines": [
+            {
+              "label": "Coursework",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Course one, Course two, Course three"
+                }
+              ]
+            },
+            {
+              "label": "Awards",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "See the "
+                },
+                {
+                  "type": "text",
+                  "text": "demo award",
+                  "marks": [
+                    {
+                      "type": "ref",
+                      "ref": {
+                        "kind": "achievement",
+                        "slug": "demo-award-placeholder"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "title": "Experience",
+      "items": [
+        {
+          "type": "entry",
+          "title": "Example Org",
+          "role": "Placeholder role",
+          "date": {
+            "start": "2025-09",
+            "end": null
+          },
+          "detail": "Example City",
+          "bullets": [
+            {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "A shared bullet that shows in "
+                },
+                {
+                  "type": "text",
+                  "text": "both",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " tracks."
+                }
+              ]
+            },
+            {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "A bullet only in Track A, with "
+                },
+                {
+                  "type": "text",
+                  "text": "italic",
+                  "marks": [
+                    {
+                      "type": "italic"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " text."
+                }
+              ],
+              "tracks": [
+                "track-a"
+              ]
+            },
+            {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "A bullet only in Track B, with "
+                },
+                {
+                  "type": "text",
+                  "text": "code",
+                  "marks": [
+                    {
+                      "type": "code"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ],
+              "tracks": [
+                "track-b"
+              ]
+            },
+            {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "A bullet that links to "
+                },
+                {
+                  "type": "text",
+                  "text": "Demo project 1",
+                  "marks": [
+                    {
+                      "type": "ref",
+                      "ref": {
+                        "kind": "project",
+                        "slug": "demo-project-1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": "."
+                }
+              ]
+            }
+          ],
+          "refs": [
+            {
+              "kind": "project",
+              "slug": "demo-project-1"
+            }
+          ]
+        },
+        {
+          "type": "entry",
+          "title": "Example Company",
+          "role": "Placeholder intern",
+          "date": {
+            "start": "2024-06",
+            "end": "2024-08"
+          },
+          "detail": "Remote",
+          "bullets": [
+            {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                }
+              ]
+            }
+          ],
+          "tracks": [
+            "track-b"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "items": [
+        {
+          "type": "entry",
+          "title": "Demo project 3",
+          "date": {
+            "start": "2025-03",
+            "end": "2025-06"
+          },
+          "tech": [
+            "Python",
+            "PostgreSQL"
+          ],
+          "bullets": [
+            {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "A placeholder project bullet."
+                }
+              ]
+            }
+          ],
+          "refs": [
+            {
+              "kind": "project",
+              "slug": "demo-project-3"
+            },
+            {
+              "kind": "achievement",
+              "slug": "demo-publication-placeholder"
+            }
+          ]
+        },
+        {
+          "type": "entry",
+          "title": "Demo project 2",
+          "tech": [
+            "C",
+            "KiCad"
+          ],
+          "tracks": [
+            "track-a"
+          ],
+          "bullets": [
+            {
+              "content": [
+                {
+                  "type": "text",
+                  "text": "An entry with no date, only in Track A."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "track-a-only",
+      "title": "Track A section",
+      "tracks": [
+        "track-a"
+      ],
+      "items": [
+        {
+          "type": "group",
+          "label": "Notes",
+          "content": [
+            {
+              "type": "text",
+              "text": "A whole section that shows only in Track A."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "title": "Skills",
+      "items": [
+        {
+          "type": "group",
+          "label": "Languages",
+          "items": [
+            "TypeScript",
+            "Python",
+            "C"
+          ]
+        },
+        {
+          "type": "group",
+          "label": "Tools (Track A)",
+          "items": [
+            "KiCad",
+            "Arduino"
+          ],
+          "tracks": [
+            "track-a"
+          ]
+        },
+        {
+          "type": "group",
+          "label": "Tools (Track B)",
+          "items": [
+            "Docker",
+            "PostgreSQL"
+          ],
+          "tracks": [
+            "track-b"
+          ]
+        },
+        {
+          "type": "group",
+          "label": "Hobbies",
+          "content": [
+            {
+              "type": "text",
+              "text": "Free text instead of a list: placeholder hobby one, placeholder hobby two."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
