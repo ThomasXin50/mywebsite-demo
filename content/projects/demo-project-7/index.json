@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "title": "Demo project 7 — Learned list, no body",
+  "summary": "A placeholder project with a list of lessons and no body text.",
+  "date": {
+    "start": "2023-06",
+    "end": "2023-08"
+  },
+  "role": "Placeholder intern",
+  "tags": [
+    "design",
+    "research"
+  ],
+  "stack": [
+    "figma",
+    "css"
+  ],
+  "links": [
+    {
+      "label": "Notes (example)",
+      "url": "https://example.com/notes",
+      "kind": "other"
+    }
+  ],
+  "cover": {
+    "image": {
+      "src": "./cover.png",
+      "alt": "Placeholder square cover on a flat background.",
+      "width": 1000,
+      "height": 1000
+    }
+  },
+  "featured": false,
+  "learned": [
+    [
+      {
+        "type": "text",
+        "text": "A first placeholder lesson, with "
+      },
+      {
+        "type": "text",
+        "text": "italic",
+        "marks": [
+          {
+            "type": "italic"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": " text."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "text": "A second lesson, with a link to "
+      },
+      {
+        "type": "text",
+        "text": "Demo project 5",
+        "marks": [
+          {
+            "type": "ref",
+            "ref": {
+              "kind": "project",
+              "slug": "demo-project-5"
+            }
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "text": "."
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "text": "A third lesson."
+      }
+    ]
+  ],
+  "attachments": [],
+  "body": []
+}

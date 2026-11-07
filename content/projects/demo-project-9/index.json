@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "title": "Demo project 9 — Many tags",
+  "summary": "A placeholder project tagged with almost everything, so the filter row fills up and overflows.",
+  "date": {
+    "start": "2022",
+    "end": "2023"
+  },
+  "role": "Placeholder generalist",
+  "tags": [
+    "hardware",
+    "software",
+    "robotics",
+    "web",
+    "embedded",
+    "data",
+    "design",
+    "research",
+    "tooling",
+    "testing",
+    "audio",
+    "open-source",
+    "teaching"
+  ],
+  "stack": [
+    "typescript",
+    "python",
+    "c",
+    "rust",
+    "react",
+    "nodejs",
+    "postgresql",
+    "docker",
+    "linux",
+    "figma",
+    "kicad",
+    "arduino",
+    "git",
+    "css"
+  ],
+  "links": [
+    {
+      "label": "Source (example)",
+      "url": "https://code.example.com/demo-owner/demo-project-9",
+      "kind": "repo"
+    }
+  ],
+  "cover": {
+    "image": {
+      "src": "./cover.png",
+      "alt": "Placeholder wide cover on a flat background.",
+      "width": 1600,
+      "height": 900
+    }
+  },
+  "featured": false,
+  "learned": [],
+  "attachments": [],
+  "body": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "See also "
+        },
+        {
+          "type": "text",
+          "text": "Demo project 1",
+          "marks": [
+            {
+              "type": "ref",
+              "ref": {
+                "kind": "project",
+                "slug": "demo-project-1"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "title": "Demo scholarship (placeholder)",
+  "kind": "scholarship",
+  "issuer": "Example Org",
+  "date": "2023-09",
+  "projects": [],
+  "tags": [
+    "teaching"
+  ],
+  "summary": "A placeholder scholarship with a summary line and nothing else.",
+  "links": [],
+  "attachments": [],
+  "featured": false,
+  "body": []
+}
