@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "title": "Demo project 4 — Demo, embed, and 3D model blocks",
+  "summary": "A featured placeholder project whose highlight leads with a playable demo. Its body has demo, embed, and 3D model blocks.",
+  "date": {
+    "start": "2024-11",
+    "end": "2025-01"
+  },
+  "role": "Placeholder developer",
+  "tags": [
+    "web",
+    "software",
+    "open-source"
+  ],
+  "stack": [
+    "typescript",
+    "nodejs",
+    "react"
+  ],
+  "links": [
+    {
+      "label": "Play (example)",
+      "url": "https://example.com/play",
+      "kind": "demo"
+    },
+    {
+      "label": "Video (example)",
+      "url": "https://video.example.com/demo-project-4",
+      "kind": "video"
+    }
+  ],
+  "cover": {
+    "image": {
+      "src": "./cover.jpg",
+      "alt": "Placeholder cover: a gradient with circles.",
+      "width": 1600,
+      "height": 1000
+    },
+    "focus": {
+      "x": 0.3,
+      "y": 0.5
+    }
+  },
+  "featured": true,
+  "highlight": {
+    "summary": [
+      [
+        {
+          "type": "text",
+          "text": "A placeholder highlight that leads with a playable demo. It records that it began as an AI draft that was then edited."
+        }
+      ]
+    ],
+    "media": [
+      {
+        "type": "demo",
+        "src": "/demos/typing-race/",
+        "title": "Typing Race (sample demo)",
+        "poster": {
+          "src": "./assets/demo-poster.jpg",
+          "alt": "Placeholder poster for the playable demo.",
+          "width": 1600,
+          "height": 1000
+        }
+      }
+    ],
+    "source": {
+      "generatedAt": "2026-10-01",
+      "bodyHash": "sha256:58d1aa6e709eb4eee53636adff0ff036844f68bb64cb9d85fa459a95bf0c1a5f",
+      "edited": true
+    }
+  },
+  "learned": [],
+  "attachments": [],
+  "body": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Interactive pieces load only when asked. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "anchor": "playable-demo",
+      "content": [
+        {
+          "type": "text",
+          "text": "Playable demo"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The demo block plays one of this site's own apps, behind a Play button. This one is the Typing Race app."
+        }
+      ]
+    },
+    {
+      "type": "demo",
+      "src": "/demos/typing-race/",
+      "title": "Typing Race (sample demo)",
+      "poster": {
+        "src": "./assets/demo-poster.jpg",
+        "alt": "Placeholder poster for the playable demo.",
+        "width": 1600,
+        "height": 1000
+      },
+      "aspect": "16:9"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The same demo without a poster, at the default shape:"
+        }
+      ]
+    },
+    {
+      "type": "demo",
+      "src": "/demos/typing-race/",
+      "title": "Typing Race, no poster"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "anchor": "embedded-video",
+      "content": [
+        {
+          "type": "text",
+          "text": "Embedded video"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Embeds show an outside page, like a video player."
+        }
+      ]
+    },
+    {
+      "type": "embed",
+      "url": "https://www.youtube.com/embed/aqz-KE-bpKQ",
+      "title": "Example video embed (Big Buck Bunny)"
+    },
+    {
+      "type": "embed",
+      "url": "https://www.youtube.com/embed/aqz-KE-bpKQ",
+      "title": "The same embed at 4:3",
+      "aspect": "4:3"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "anchor": "3d-model",
+      "content": [
+        {
+          "type": "text",
+          "text": "3D model"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The model block shows a GLB file in a 3D viewer that loads only when asked. This placeholder is a green board with a few coloured blocks."
+        }
+      ]
+    },
+    {
+      "type": "model",
+      "src": "./files/demo-model.glb",
+      "title": "Demo board (placeholder 3D model)",
+      "poster": {
+        "src": "./assets/model-poster.png",
+        "alt": "Placeholder poster for the 3D model.",
+        "width": 1200,
+        "height": 900
+      }
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The same model without a poster, at 16:10:"
+        }
+      ]
+    },
+    {
+      "type": "model",
+      "src": "./files/demo-model.glb",
+      "title": "Demo board, no poster",
+      "aspect": "16:10"
+    }
+  ]
+}

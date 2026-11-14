@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "title": "Demo certification (placeholder)",
+  "kind": "certification",
+  "issuer": "Example Org",
+  "date": "2025-06",
+  "projects": [
+    "demo-project-3"
+  ],
+  "tags": [
+    "data"
+  ],
+  "summary": "A placeholder certification with a certificate PDF and no page of its own.",
+  "links": [],
+  "attachments": [
+    {
+      "src": "./files/certificate.pdf",
+      "label": "Certificate"
+    }
+  ],
+  "featured": false,
+  "body": []
+}

@@ -1,0 +1,334 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "title": "Demo project 2 — Featured, extend cover, no highlight",
+  "summary": "A featured placeholder project without a highlight, so the feed falls back to this summary and the cover. Its body shows asides at every side and size, ready to reorder or reframe with Arrange.",
+  "date": {
+    "start": "2025-09",
+    "end": "2026-02"
+  },
+  "role": "Demo lead (placeholder)",
+  "tags": [
+    "hardware",
+    "robotics",
+    "embedded"
+  ],
+  "stack": [
+    "c",
+    "kicad",
+    "arduino"
+  ],
+  "links": [
+    {
+      "label": "Write-up (example)",
+      "url": "https://example.com/demo-project-2",
+      "kind": "other"
+    }
+  ],
+  "cover": {
+    "image": {
+      "src": "./cover.png",
+      "alt": "Placeholder cover: a rounded shape centred on a flat grey background.",
+      "width": 1270,
+      "height": 790
+    },
+    "frame": {
+      "style": "blob",
+      "seed": 7
+    },
+    "fit": "extend"
+  },
+  "featured": true,
+  "learned": [],
+  "attachments": [],
+  "body": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Try Edit body → Arrange to drag these blocks into a new order, or press New frame on a bubble to give it a new pebble shape. Asides (bubbles) sit beside the text on the left or right, or between paragraphs in the centre. They come in five sizes, xs to xl, and hold images, text, quotes, or stats. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    {
+      "type": "aside",
+      "side": "left",
+      "size": "xs",
+      "frame": {
+        "style": "blob",
+        "seed": 3
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "A text-only aside, extra small, on the left."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        }
+      ]
+    },
+    {
+      "type": "aside",
+      "side": "right",
+      "size": "sm",
+      "frame": {
+        "style": "blob",
+        "seed": 8
+      },
+      "content": [
+        {
+          "type": "figure",
+          "image": {
+            "src": "./assets/aside-1.png",
+            "alt": "Placeholder aside image, square.",
+            "width": 600,
+            "height": 600
+          },
+          "caption": [
+            {
+              "type": "text",
+              "text": "Small, right, with an image."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "anchor": "medium-and-large",
+      "content": [
+        {
+          "type": "text",
+          "text": "Medium and large"
+        }
+      ]
+    },
+    {
+      "type": "aside",
+      "side": "left",
+      "size": "md",
+      "frame": {
+        "style": "blob",
+        "seed": 21
+      },
+      "content": [
+        {
+          "type": "figure",
+          "image": {
+            "src": "./assets/aside-3.jpg",
+            "alt": "Placeholder aside image, portrait.",
+            "width": 600,
+            "height": 800
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "A medium aside can mix an image with a line of text."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    {
+      "type": "aside",
+      "side": "right",
+      "size": "lg",
+      "frame": {
+        "style": "none"
+      },
+      "content": [
+        {
+          "type": "quote",
+          "content": [
+            {
+              "type": "text",
+              "text": "A quote in a large, unframed aside on the right."
+            }
+          ],
+          "cite": "Example Person"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "anchor": "centred",
+      "content": [
+        {
+          "type": "text",
+          "text": "Centred"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      ]
+    },
+    {
+      "type": "aside",
+      "side": "center",
+      "size": "xl",
+      "frame": {
+        "style": "blob",
+        "seed": 5
+      },
+      "content": [
+        {
+          "type": "figure",
+          "image": {
+            "src": "./assets/aside-4.jpg",
+            "alt": "Placeholder aside image, wide.",
+            "width": 1600,
+            "height": 900
+          },
+          "caption": [
+            {
+              "type": "text",
+              "text": "Extra large and centred: text goes above and below it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    {
+      "type": "aside",
+      "side": "center",
+      "size": "md",
+      "frame": {
+        "style": "blob",
+        "seed": 14
+      },
+      "content": [
+        {
+          "type": "stats",
+          "items": [
+            {
+              "value": "12",
+              "label": "Placeholder count"
+            },
+            {
+              "value": "3.5×",
+              "label": "Example ratio",
+              "note": "made up"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        }
+      ]
+    },
+    {
+      "type": "aside",
+      "side": "right",
+      "size": "xs",
+      "frame": {
+        "style": "none"
+      },
+      "content": [
+        {
+          "type": "figure",
+          "image": {
+            "src": "./assets/aside-2.jpg",
+            "alt": "Placeholder aside image, landscape.",
+            "width": 800,
+            "height": 600
+          }
+        }
+      ]
+    },
+    {
+      "type": "aside",
+      "side": "left",
+      "size": "lg",
+      "frame": {
+        "style": "blob",
+        "seed": 40
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "A large text-only aside on the left. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    }
+  ]
+}
