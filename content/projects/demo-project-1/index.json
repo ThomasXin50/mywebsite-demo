@@ -1,0 +1,505 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "title": "Demo project 1 — Featured, crop cover",
+  "summary": "A featured placeholder project with a highlight and a cropped cover. Its body uses text, lists, quotes, code, figures, and a gallery.",
+  "date": {
+    "start": "2026-05",
+    "end": null
+  },
+  "role": "Placeholder role",
+  "tags": [
+    "software",
+    "web",
+    "design"
+  ],
+  "stack": [
+    "typescript",
+    "react",
+    "css"
+  ],
+  "links": [
+    {
+      "label": "Source (example)",
+      "url": "https://code.example.com/demo-owner/demo-project-1",
+      "kind": "repo"
+    },
+    {
+      "label": "Live demo (example)",
+      "url": "https://example.com/demo-project-1",
+      "kind": "demo"
+    }
+  ],
+  "cover": {
+    "image": {
+      "src": "./cover.jpg",
+      "alt": "Placeholder cover: a gradient with circles, cropped around the box marked focus.",
+      "width": 1600,
+      "height": 1000
+    },
+    "focus": {
+      "x": 0.77,
+      "y": 0.19
+    },
+    "fit": "crop"
+  },
+  "featured": true,
+  "highlight": {
+    "summary": [
+      [
+        {
+          "type": "text",
+          "text": "A short placeholder summary for the home "
+        },
+        {
+          "type": "text",
+          "text": "Highlights",
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " feed. It is written separately from the body."
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "text": "A second paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    ],
+    "media": [
+      {
+        "type": "figure",
+        "image": {
+          "src": "./assets/wide.jpg",
+          "alt": "Placeholder image, wide.",
+          "width": 1600,
+          "height": 1000
+        },
+        "caption": [
+          {
+            "type": "text",
+            "text": "The lead image of this highlight."
+          }
+        ]
+      },
+      {
+        "type": "embed",
+        "url": "https://www.youtube.com/embed/aqz-KE-bpKQ",
+        "title": "Example video embed (Big Buck Bunny)"
+      }
+    ]
+  },
+  "learned": [],
+  "attachments": [],
+  "body": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "This is filler text for a demo entry. It shows "
+        },
+        {
+          "type": "text",
+          "text": "bold",
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", "
+        },
+        {
+          "type": "text",
+          "text": "italic",
+          "marks": [
+            {
+              "type": "italic"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", "
+        },
+        {
+          "type": "text",
+          "text": "inline code",
+          "marks": [
+            {
+              "type": "code"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", a "
+        },
+        {
+          "type": "text",
+          "text": "plain link",
+          "marks": [
+            {
+              "type": "link",
+              "href": "https://example.com"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", and references to "
+        },
+        {
+          "type": "text",
+          "text": "Demo project 2",
+          "marks": [
+            {
+              "type": "ref",
+              "ref": {
+                "kind": "project",
+                "slug": "demo-project-2"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " and "
+        },
+        {
+          "type": "text",
+          "text": "the demo award",
+          "marks": [
+            {
+              "type": "ref",
+              "ref": {
+                "kind": "achievement",
+                "slug": "demo-award-placeholder"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ". You can also combine "
+        },
+        {
+          "type": "text",
+          "text": "bold italic",
+          "marks": [
+            {
+              "type": "bold"
+            },
+            {
+              "type": "italic"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " text."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "anchor": "overview",
+      "content": [
+        {
+          "type": "text",
+          "text": "Overview"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      ]
+    },
+    {
+      "type": "figure",
+      "image": {
+        "src": "./assets/wide.jpg",
+        "alt": "Placeholder image, wide.",
+        "width": 1600,
+        "height": 1000
+      },
+      "caption": [
+        {
+          "type": "text",
+          "text": "A figure with no frame. Captions can hold "
+        },
+        {
+          "type": "text",
+          "text": "italic",
+          "marks": [
+            {
+              "type": "italic"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " text."
+        }
+      ],
+      "frame": {
+        "style": "none"
+      }
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "anchor": "ordered-steps",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ordered steps"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "type": "text",
+            "text": "First placeholder step."
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Second placeholder step, with "
+          },
+          {
+            "type": "text",
+            "text": "bold",
+            "marks": [
+              {
+                "type": "bold"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " text."
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Third placeholder step."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "anchor": "unordered-notes",
+      "content": [
+        {
+          "type": "text",
+          "text": "Unordered notes"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "type": "text",
+            "text": "An unordered item."
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "Another item, with "
+          },
+          {
+            "type": "text",
+            "text": "italic",
+            "marks": [
+              {
+                "type": "italic"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": " text."
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "text": "A third item, with "
+          },
+          {
+            "type": "text",
+            "text": "code",
+            "marks": [
+              {
+                "type": "code"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "content": [
+        {
+          "type": "text",
+          "text": "A placeholder quotation that stands in for something someone once said about this demo."
+        }
+      ],
+      "cite": "Example Person, Example Org"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "anchor": "code",
+      "content": [
+        {
+          "type": "text",
+          "text": "Code"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        }
+      ]
+    },
+    {
+      "type": "code",
+      "language": "ts",
+      "code": "export function add(a: number, b: number): number {\n  return a + b;\n}"
+    },
+    {
+      "type": "code",
+      "code": "A code block with no language."
+    },
+    {
+      "type": "figure",
+      "image": {
+        "src": "./assets/square.png",
+        "alt": "Placeholder image, square, on a flat background.",
+        "width": 1000,
+        "height": 1000
+      },
+      "caption": [
+        {
+          "type": "text",
+          "text": "A figure in a pebble frame (seed 12)."
+        }
+      ],
+      "frame": {
+        "style": "blob",
+        "seed": 12
+      }
+    },
+    {
+      "type": "figure",
+      "image": {
+        "src": "./assets/wide.jpg",
+        "alt": "Placeholder image, wide.",
+        "width": 1600,
+        "height": 1000
+      }
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "anchor": "gallery",
+      "content": [
+        {
+          "type": "text",
+          "text": "Gallery"
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "images": [
+        {
+          "image": {
+            "src": "./assets/gallery-1.jpg",
+            "alt": "Placeholder gallery image one.",
+            "width": 1200,
+            "height": 800
+          },
+          "caption": [
+            {
+              "type": "text",
+              "text": "First gallery image."
+            }
+          ]
+        },
+        {
+          "image": {
+            "src": "./assets/gallery-2.jpg",
+            "alt": "Placeholder gallery image two, tall.",
+            "width": 800,
+            "height": 1200
+          },
+          "caption": [
+            {
+              "type": "text",
+              "text": "Second, tall."
+            }
+          ]
+        },
+        {
+          "image": {
+            "src": "./assets/gallery-3.jpg",
+            "alt": "Placeholder gallery image three.",
+            "width": 1200,
+            "height": 800
+          }
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "A closing paragraph after a divider. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      ]
+    }
+  ]
+}

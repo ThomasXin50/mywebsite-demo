@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "lede": [
+    {
+      "type": "text",
+      "text": "Demo Owner builds "
+    },
+    {
+      "type": "text",
+      "text": "placeholder projects for a demo site",
+      "marks": [
+        {
+          "type": "italic"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "text": ", so you can try the editor on them."
+    }
+  ],
+  "portrait": {
+    "src": "./portrait.jpg",
+    "alt": "Placeholder portrait: a labelled gradient where a headshot would go.",
+    "width": 1200,
+    "height": 1500
+  },
+  "body": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "This is the about section. It is filler text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "The home page is edited in place. Click the intro above, the portrait, or this text to change them. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Read about "
+        },
+        {
+          "type": "text",
+          "text": "Demo project 1",
+          "marks": [
+            {
+              "type": "ref",
+              "ref": {
+                "kind": "project",
+                "slug": "demo-project-1"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": " or the "
+        },
+        {
+          "type": "text",
+          "text": "demo award",
+          "marks": [
+            {
+              "type": "ref",
+              "ref": {
+                "kind": "achievement",
+                "slug": "demo-award-placeholder"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": ", or browse everything from the menu."
+        }
+      ]
+    },
+    {
+      "type": "socials"
+    },
+    {
+      "type": "featured",
+      "items": [
+        {
+          "kind": "project",
+          "slug": "demo-project-1"
+        },
+        {
+          "kind": "project",
+          "slug": "demo-project-4"
+        },
+        {
+          "kind": "achievement",
+          "slug": "demo-award-placeholder"
+        }
+      ]
+    }
+  ]
+}

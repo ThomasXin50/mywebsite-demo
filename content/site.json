@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "name": "Demo Portfolio",
+  "description": "A demo portfolio filled with placeholder projects and achievements. Everything here is sample content you can edit.",
+  "socials": [
+    {
+      "label": "Example social",
+      "url": "https://social.example.com/demo-owner",
+      "kind": "social"
+    },
+    {
+      "label": "Code (example)",
+      "url": "https://code.example.com/demo-owner",
+      "kind": "repo"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:demo@example.com",
+      "kind": "email"
+    },
+    {
+      "label": "Website",
+      "url": "https://example.com",
+      "kind": "other"
+    }
+  ],
+  "taxonomies": {
+    "tags": [
+      {
+        "id": "hardware",
+        "label": "Hardware"
+      },
+      {
+        "id": "software",
+        "label": "Software"
+      },
+      {
+        "id": "robotics",
+        "label": "Robotics"
+      },
+      {
+        "id": "web",
+        "label": "Web"
+      },
+      {
+        "id": "embedded",
+        "label": "Embedded"
+      },
+      {
+        "id": "data",
+        "label": "Data"
+      },
+      {
+        "id": "design",
+        "label": "Design"
+      },
+      {
+        "id": "research",
+        "label": "Research"
+      },
+      {
+        "id": "tooling",
+        "label": "Tooling"
+      },
+      {
+        "id": "testing",
+        "label": "Testing"
+      },
+      {
+        "id": "audio",
+        "label": "Audio"
+      },
+      {
+        "id": "open-source",
+        "label": "Open source"
+      },
+      {
+        "id": "teaching",
+        "label": "Teaching"
+      },
+      {
+        "id": "unused-tag",
+        "label": "Unused tag"
+      }
+    ],
+    "stack": [
+      {
+        "id": "typescript",
+        "label": "TypeScript"
+      },
+      {
+        "id": "python",
+        "label": "Python"
+      },
+      {
+        "id": "c",
+        "label": "C"
+      },
+      {
+        "id": "rust",
+        "label": "Rust"
+      },
+      {
+        "id": "react",
+        "label": "React"
+      },
+      {
+        "id": "nodejs",
+        "label": "Node.js"
+      },
+      {
+        "id": "postgresql",
+        "label": "PostgreSQL"
+      },
+      {
+        "id": "docker",
+        "label": "Docker"
+      },
+      {
+        "id": "linux",
+        "label": "Linux"
+      },
+      {
+        "id": "figma",
+        "label": "Figma"
+      },
+      {
+        "id": "kicad",
+        "label": "KiCad"
+      },
+      {
+        "id": "arduino",
+        "label": "Arduino"
+      },
+      {
+        "id": "git",
+        "label": "Git"
+      },
+      {
+        "id": "css",
+        "label": "CSS"
+      }
+    ],
+    "achievementKinds": [
+      {
+        "id": "award",
+        "label": "Award"
+      },
+      {
+        "id": "certification",
+        "label": "Certification"
+      },
+      {
+        "id": "competition",
+        "label": "Competition"
+      },
+      {
+        "id": "publication",
+        "label": "Publication"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarship"
+      },
+      {
+        "id": "other",
+        "label": "Other"
+      }
+    ]
+  },
+  "pages": {
+    "projects": {
+      "headline": "Demo projects, placeholder by design.",
+      "intro": "Sample entries that show every card, cover, and body block. Try the filters and search."
+    },
+    "achievements": {
+      "headline": "A ledger of placeholder achievements.",
+      "intro": "Sample awards, certificates, and competitions from Example Org, grouped by year."
+    }
+  }
+}
