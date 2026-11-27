@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "title": "Demo project 8 — Tall cover, default fit",
+  "summary": "A placeholder project with a tall, busy cover and no fit chosen, so cards crop it around the focus point.",
+  "date": {
+    "start": "2023-01",
+    "end": "2023-04"
+  },
+  "tags": [
+    "hardware",
+    "testing"
+  ],
+  "stack": [
+    "python",
+    "arduino"
+  ],
+  "links": [],
+  "cover": {
+    "image": {
+      "src": "./cover.jpg",
+      "alt": "Placeholder tall cover: a gradient with circles.",
+      "width": 1000,
+      "height": 1400
+    },
+    "focus": {
+      "x": 0.5,
+      "y": 0.3
+    }
+  },
+  "featured": false,
+  "learned": [],
+  "attachments": [],
+  "body": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    }
+  ]
+}

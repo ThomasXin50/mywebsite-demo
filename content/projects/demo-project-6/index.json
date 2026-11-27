@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "title": "Demo project 6 — Draft",
+  "summary": "A draft placeholder project. Drafts show only in the admin until published.",
+  "date": {
+    "start": "2026-08",
+    "end": null
+  },
+  "role": "Placeholder role",
+  "tags": [
+    "audio"
+  ],
+  "stack": [
+    "rust"
+  ],
+  "links": [],
+  "cover": {
+    "image": {
+      "src": "./cover.jpg",
+      "alt": "Placeholder cover for a draft.",
+      "width": 1600,
+      "height": 1000
+    }
+  },
+  "featured": false,
+  "learned": [],
+  "attachments": [],
+  "body": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "A draft body. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    }
+  ]
+}

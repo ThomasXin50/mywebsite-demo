@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "title": "Demo project 5 — No cover",
+  "summary": "A placeholder project with no cover image and year-only dates, to show how cards look without one.",
+  "date": {
+    "start": "2024",
+    "end": "2024"
+  },
+  "tags": [
+    "tooling",
+    "teaching"
+  ],
+  "stack": [
+    "git",
+    "linux"
+  ],
+  "links": [],
+  "featured": false,
+  "learned": [],
+  "attachments": [],
+  "body": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        }
+      ]
+    }
+  ]
+}

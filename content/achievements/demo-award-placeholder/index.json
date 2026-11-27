@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "title": "Demo award (placeholder)",
+  "kind": "award",
+  "issuer": "Example Org",
+  "date": "2026-03-14",
+  "projects": [
+    "demo-project-1",
+    "demo-project-2"
+  ],
+  "tags": [
+    "design"
+  ],
+  "summary": "A placeholder award with a page, a cover, and a highlight. Not a real award.",
+  "links": [
+    {
+      "label": "Announcement (example)",
+      "url": "https://example.com/awards/demo",
+      "kind": "other"
+    }
+  ],
+  "attachments": [],
+  "cover": {
+    "image": {
+      "src": "./cover.jpg",
+      "alt": "Placeholder cover for a demo award.",
+      "width": 1600,
+      "height": 1000
+    },
+    "focus": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "fit": "crop"
+  },
+  "featured": true,
+  "highlight": {
+    "summary": [
+      [
+        {
+          "type": "text",
+          "text": "A placeholder highlight for an achievement. Featured achievements share the home feed with projects."
+        }
+      ]
+    ],
+    "media": [
+      {
+        "type": "model",
+        "src": "./files/demo-model.glb",
+        "title": "Demo board (placeholder 3D model)",
+        "aspect": "16:10"
+      },
+      {
+        "type": "figure",
+        "image": {
+          "src": "./cover.jpg",
+          "alt": "Placeholder cover for a demo award.",
+          "width": 1600,
+          "height": 1000
+        }
+      }
+    ]
+  },
+  "body": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "This achievement has a body and a cover, so it gets its own page. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "anchor": "background",
+      "content": [
+        {
+          "type": "text",
+          "text": "Background"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. It links to "
+        },
+        {
+          "type": "text",
+          "text": "Demo project 1",
+          "marks": [
+            {
+              "type": "ref",
+              "ref": {
+                "kind": "project",
+                "slug": "demo-project-1"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "."
+        }
+      ]
+    }
+  ]
+}

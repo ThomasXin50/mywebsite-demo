@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "title": "Demo publication (placeholder)",
+  "kind": "publication",
+  "issuer": "Example Journal",
+  "date": "2025-11-02",
+  "projects": [
+    "demo-project-3"
+  ],
+  "tags": [
+    "research"
+  ],
+  "summary": "A placeholder publication with a short page and no cover.",
+  "links": [
+    {
+      "label": "Paper (example)",
+      "url": "https://example.com/papers/demo.pdf",
+      "kind": "paper"
+    }
+  ],
+  "attachments": [],
+  "featured": false,
+  "body": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "A short placeholder abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "content": [
+        {
+          "type": "text",
+          "text": "A placeholder pull quote from the paper."
+        }
+      ]
+    }
+  ]
+}

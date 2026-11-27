@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "title": "Demo project 3 — Callouts, stats, and files",
+  "summary": "A placeholder project with callouts in every tone, stat rows, and downloadable files in the body and the Files section.",
+  "date": {
+    "start": "2025-03-10",
+    "end": "2025-06-30"
+  },
+  "role": "Placeholder contributor",
+  "tags": [
+    "data",
+    "research",
+    "testing"
+  ],
+  "stack": [
+    "python",
+    "postgresql",
+    "docker"
+  ],
+  "links": [
+    {
+      "label": "Paper (example)",
+      "url": "https://example.com/papers/demo-project-3.pdf",
+      "kind": "paper"
+    },
+    {
+      "label": "Video (example)",
+      "url": "https://video.example.com/demo-project-3",
+      "kind": "video"
+    },
+    {
+      "label": "Source (example)",
+      "url": "https://code.example.com/demo-owner/demo-project-3",
+      "kind": "repo"
+    }
+  ],
+  "cover": {
+    "image": {
+      "src": "./cover.png",
+      "alt": "Placeholder cover: a shape on a flat grey background.",
+      "width": 1200,
+      "height": 900
+    }
+  },
+  "featured": false,
+  "learned": [],
+  "attachments": [
+    {
+      "src": "./files/spec-sheet.pdf",
+      "label": "Spec sheet (PDF)"
+    },
+    {
+      "src": "./files/sample-files.zip",
+      "label": "Sample files (ZIP)"
+    }
+  ],
+  "body": [
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "A "
+            },
+            {
+              "type": "text",
+              "text": "note",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " callout. Use it for context that's good to know."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "A "
+            },
+            {
+              "type": "text",
+              "text": "tip",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " callout, with a "
+            },
+            {
+              "type": "text",
+              "text": "link",
+              "marks": [
+                {
+                  "type": "link",
+                  "href": "https://example.com"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Callouts can hold more than one paragraph."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "A "
+            },
+            {
+              "type": "text",
+              "text": "warning",
+              "marks": [
+                {
+                  "type": "bold"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": " callout, for things to be careful about."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "anchor": "numbers",
+      "content": [
+        {
+          "type": "text",
+          "text": "Numbers"
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "42",
+          "label": "Placeholder metric"
+        },
+        {
+          "value": "7 ms",
+          "label": "Example timing",
+          "note": "sample value"
+        },
+        {
+          "value": "99%",
+          "label": "Made-up rate"
+        },
+        {
+          "value": "1.0",
+          "label": "Version"
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": "1",
+          "label": "A single stat"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "anchor": "downloads",
+      "content": [
+        {
+          "type": "text",
+          "text": "Downloads"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": [
+        {
+          "type": "text",
+          "text": "Files can sit in the body as well as in the Files section below."
+        }
+      ]
+    },
+    {
+      "type": "attachment",
+      "file": {
+        "src": "./files/spec-sheet.pdf",
+        "label": "Spec sheet (PDF, placeholder)"
+      }
+    },
+    {
+      "type": "attachment",
+      "file": {
+        "src": "./files/sample-files.zip",
+        "label": "Sample files (ZIP)"
+      }
+    }
+  ]
+}
